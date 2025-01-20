@@ -1,0 +1,19 @@
+{
+  "name": "sandwiches-express-webservice",
+  "version": "1.0.0",
+  "description": "Sandwich spots in Rotterdam",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --env-file=.env --watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "sandwiches-express-webservice"
+  },
+  "author": "Sam",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
